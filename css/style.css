@@ -1,0 +1,70 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth !important;
+}
+
+aside {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+
+.aside {
+    background-color: #0c3f64;
+}
+
+.header {
+    background-image: url(../images/cooking-ingredients-on-a-blue-wooden-background-free-photo.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100;
+    height: 75vh;
+}
+
+.back-layer {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .8) 0, transparent 40%, transparent 75%, rgba(0, 0, 0, .8));
+}
+
+.colNum1 {
+    overflow: hidden;
+    padding: 0;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.colNum1:hover .showData {
+    top: 0;
+}
+
+.colNum1 .showData {
+    position: absolute;
+    top: 100%;
+    transition: all 0.4s 0.1s;
+}
+
+#xBtn{
+    display: none;
+    cursor: pointer;
+}
+
+#togBtn {
+    cursor: pointer;
+}
+
+.slider20{
+    position: relative;
+    top: 200px;
+}
+
+.loading{
+    display: flex;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#feedBack{
+    display: none;
+}

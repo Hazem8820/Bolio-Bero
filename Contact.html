@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="images/Bolio-Bero-150x150.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Manrope:wght@600&display=swap"
+        rel="stylesheet">
+    <title>Bolio Bero</title>
+</head>
+
+<body class="bg-black">
+    <aside id="aside" class="d-flex">
+        <div id="sideBar" class="aside p-5">
+            <div class="slider20 py-2 fa-2x"><a class="text-decoration-none text-white" href="Index.html">Search</a>
+            </div>
+            <div class="slider20 py-2 fa-2x"><a class="text-decoration-none text-white"
+                    href="Category.html">Category</a></div>
+            <div class="slider20 py-2 fa-2x"><a class="text-decoration-none text-white" href="Area.html">Area</a></div>
+            <div class="slider20 py-2 fa-2x"><a class="text-decoration-none text-white"
+                    href="Ingredients.html">Ingredients</a>
+            </div>
+            <div class="slider20 py-2 fa-2x"><a class="text-decoration-none text-white" href="Contact.html">Contact
+                    Us</a></div>
+            <div class="d-flex h-75 align-items-end">
+                <p class="text-light fs-4"><i class="fa-brands fa-facebook mx-2"></i><i
+                        class="fa-brands fa-twitter"></i><i class="fa-sharp fa-solid fa-globe mx-2"></i></p>
+            </div>
+            <div class="d-flex align-items-end">
+                <p class="text-light">Copyright Â© 2019 All Rights Reserved.</p>
+            </div>
+        </div>
+        <div class="bg-light shadow-lg border-end border-4 border-dark w-25">
+            <div class="w-100 mt-5"><img src="images/Bolio-Bero-150x150.png" class="w-100" alt="logo"></div>
+            <div class="w-75 ms-auto h-75 d-flex align-items-center ps-1 pb-5">
+                <div id="togBtn"><i class="fa-solid fa-bars fa-3x"></i></div>
+                <div id="xBtn"><i class="fa-solid fa-x fa-3x"></i></div>
+            </div>
+            <div class="w-75 ms-auto d-flex align-items-end ps-1 pb-5">
+                <div><i class="fa-sharp fa-solid fa-globe fa-2x d-block my-3"></i><i
+                        class="fa-solid fa-diagram-project fa-2x"></i></div>
+            </div>
+        </div>
+    </aside>
+    <section class="mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 mt-5">
+                    <form>
+                        <div class="w-75 d-flex justify-content-around col-sm-12 mx-auto">
+                            <div class="form-floating my-3 w-50 px-2">
+                                <input type="text" class="form-control form-border" id="signFirstName"
+                                    placeholder="First Name" />
+                                <ul class="signintext mt-3 invalid-feedback">
+                                    <li>First Name Is Required</li>
+                                    <li>Minmum Length 2 and maxmum 20</li>
+                                </ul>
+                                <label for="signEmailAdress">
+                                    <div class="text-secondary">
+                                        <h5 class="fs-6 mt-1 text-sec">First Name</h5>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="form-floating my-3 w-50 px-2">
+                                <input type="text" class="form-control form-border" id="signLastName"
+                                    placeholder="Last Name" />
+                                <ul class="signintext mt-3 invalid-feedback">
+                                    <li>Last Name Is Required</li>
+                                    <li>Minmum Length 2 and maxmum 20</li>
+                                </ul>
+                                <label for="signPassword">
+                                    <div class="text-secondary">
+                                        <h5 class="fs-6 mt-1 text-sec">Last Name</h5>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-floating my-3 w-75 mx-auto px-2">
+                            <input type="email" class="form-control form-border" id="signUpEmail"
+                                placeholder="Email address" />
+                            <ul class="signintext mt-3 invalid-feedback">
+                                <li>Email Is Required</li>
+                                <li>InValid Email Formate</li>
+                            </ul>
+                            <label for="signUpEmail">
+                                <div class="text-secondary">
+                                    <h5 class="fs-6 mt-1 text-sec">Email</h5>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-floating my-3 w-75 mx-auto px-2">
+                            <input type="number" class="form-control form-border" id="Phone" placeholder="Phone" />
+                            <ul class="signintext mt-3 invalid-feedback">
+                                <li>Phone Is Required</li>
+                                <li>Must be 11 number</li>
+                            </ul>
+                            <label for="signAge">
+                                <div class="text-secondary">
+                                    <h5 class="fs-6 mt-1 text-sec">Phone</h5>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="w-75 d-flex justify-content-around col-sm-12 mx-auto">
+                            <div class="form-floating my-3 w-50 px-2">
+                                <input type="password" class="form-control form-border" id="signUpPassword"
+                                    placeholder="Password" />
+                                <ul class="signintext mt-3 invalid-feedback">
+                                    <li>Password Is Required</li>
+                                    <li>Minimum eight characters, at least one letter and one number</li>
+                                </ul>
+                                <label for="signEmailAdress">
+                                    <div class="text-secondary">
+                                        <h5 class="fs-6 mt-1 text-sec">Password</h5>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="form-floating my-3 w-50 px-2">
+                                <input type="password" class="form-control form-border" id="rePassword"
+                                    placeholder="rePassword" />
+                                <ul class="signintext mt-3 invalid-feedback">
+                                    <li>rePassword Is Required</li>
+                                    <li>Minimum eight characters, at least one letter and one number</li>
+                                </ul>
+                                <label for="signPassword">
+                                    <div class="text-secondary">
+                                        <h5 class="fs-6 mt-1 text-sec">Repassword</h5>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row cols-sm-12 w-75 mt-5 px-2 mx-auto "><button id="Submit" disabled
+                                class="btn btn-primary p-3 me-3" type="submit">Submit</button>
+                        </div>
+                        <div id="feedBack">
+                            <h2 class="text-center fa-3x mt-3 text-success">You Will Receive a Massage From Us</h2>
+                            <p class="text-center fa-3x mt-3 text-light">Check Your Mail</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="loader" class="loading position-fixed bg-light z-3 justify-content-center align-items-center"><span
+            class="loader"><img src="images/loader (1).gif" class="w-100" alt=""></span></div>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/Contact.js"></script>
+</body>
+
+</html>
